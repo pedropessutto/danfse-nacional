@@ -406,7 +406,7 @@
             <tr>
                 <td colspan="4">
                     <span class="label">Descrição do Serviço</span>
-                    <span class="value"><?= $data['servico']['descricao'] ?></span>
+                    <span class="value"><?= nl2br($data['servico']['descricao'], false) ?></span>
                 </td>
             </tr>
         </table>
